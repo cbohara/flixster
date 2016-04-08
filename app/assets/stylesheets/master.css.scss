@@ -1,5 +1,12 @@
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text);
+
 h1, h2, h3, h4, h5, h6, .navbar {
   margin:0;
+}
+
+body {
+  background: url('blizzard.png');
+  font-family: 'Crimson Text', serif;
 }
 
 .navbar-inverse {
@@ -7,7 +14,7 @@ h1, h2, h3, h4, h5, h6, .navbar {
   font-family: "Helvetica Neue", Helvetica;
   font-weight: 200;
   box-shadow: 0px 1px 3px #2a2a2a;
-  background: url('black_linen.png');
+  background: url('blackorchid.png');
 }
 
 .navbar-inverse a.navbar-brand {
@@ -32,13 +39,13 @@ h1, h2, h3, h4, h5, h6, .navbar {
 }
 
 .frosty h1 {
-  font-family: "Helvetica Neue", Helvetica;
+  font-family: 'archisticobold';
   font-weight: 200;
   text-shadow: rgba(0,0,0,.75) 1px 1px;
 }
 
 .frosty h2 {
-  font-family: "Helvetica Neue", Helvetica;
+  font-family: 'archisticobold';
   font-weight: 100;
   text-shadow: rgba(0,0,0,.75) 1px 1px;
 }
@@ -46,3 +53,4 @@ h1, h2, h3, h4, h5, h6, .navbar {
 .btn {
   border-radius:0;
 }
+
