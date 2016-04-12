@@ -6,6 +6,7 @@
   <% @courses.each do |course| %>
     <h2 class="col-sm-8 col-xs-12">
       <%= link_to course.title, course_path(course) %>
+      <%= image_tag course.avatar, class: 'img-responsive' %>
     </h2>
     <br />
     <div class="description col-sm-8 col-xs-12">
