@@ -9,8 +9,8 @@ gem 'devise'
 gem 'simple_form'
 gem 'carrierwave'
 gem "figaro", ">= 1.0.0"
-gem "fog", "~> 1.3.1"
 gem 'mini_magick', '~> 4.3.1'
+gem 'carrierwave-aws'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.1'
