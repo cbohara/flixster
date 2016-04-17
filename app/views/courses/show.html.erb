@@ -18,15 +18,9 @@
     <br />
     <br />
 
-<<<<<<< HEAD
     <% if current_user && current_user.enrolled_in?(@course) %>
       <h3 class="label label-info">You Are Enrolled!</h3>
     <% else %>
-=======
-      <% if current_user && current_user.enrolled_in?(@course) %>
-    <h3 class="label label-info">You Are Enrolled!</h3>
-  <% else %>
->>>>>>> d4005020b54980cc3cc6f6e9a9a604b8684554d8
     <% if @course.free? %>
       <%= link_to 'Enroll', course_enrollments_path(@course), class: 'btn btn-primary', method: :post %>
     <% else %>
@@ -35,11 +29,8 @@
                 data-key="<%= Rails.configuration.stripe[:publishable_key] %>"
                 data-description="<%= @course.title %> (<%= number_to_currency @course.cost %>)"
                 data-amount="<%= (@course.cost * 100).to_i %>"></script>
-<<<<<<< HEAD
-=======
         <% end %>
       <% end %>
->>>>>>> d4005020b54980cc3cc6f6e9a9a604b8684554d8
     <% end %>
   </div>
 
