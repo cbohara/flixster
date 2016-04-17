@@ -11,6 +11,7 @@ gem 'carrierwave'
 gem "figaro", ">= 1.0.0"
 gem 'mini_magick', '~> 4.3.1'
 gem 'carrierwave-aws'
+gem 'stripe'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.1'
