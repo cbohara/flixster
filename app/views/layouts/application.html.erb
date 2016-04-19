@@ -59,9 +59,41 @@
 
 <div id="footer">
   <div class="container">
-    <b>Teachers</b>
-    <br />
-    <%= link_to 'Teach a Course', new_instructor_course_path %>
+    <div class="col-xs-12 col-sm-3">
+      <b>Teachers</b>
+      <br />
+      <%= link_to 'Teach a Course', new_instructor_course_path %>
+      <br />
+      <%= link_to 'My Dashboard', dashboard_path %>
+    </div>
+    <div class="col-xs-12 col-sm-3">
+      <b>About</b>
+      <br />
+      <%= link_to 'Team', '#' %>
+      <br />
+      <%= link_to 'Careers', '#' %>
+      <br />
+      <%= link_to 'Privacy Policy', '#' %>
+    </div>
+    <div class="col-xs-12 col-sm-3">
+      <b>Contact</b>
+      <br />
+      charlie.b.ohara@gmail.com
+      <br />
+      3607 Coolidge Avenue
+      <br />
+      Oakland, CA 94602
+    </div>
+    <div class="col-xs-12 col-sm-3 social">
+      <b>Social</b>
+      <br />
+      <%= link_to 'https://github.com/cbohara' do %>
+        <%= image_tag 'bluegithub.png', class: 'social-button' %>
+      <% end %>
+      <%= link_to 'https://medium.com/@charlie.b.ohara' do %>
+        <%= image_tag 'greenmedium.png', class: 'social-button' %>
+      <% end %>
+    </div>
   </div>
 </div>
 
