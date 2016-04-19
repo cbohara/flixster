@@ -11,6 +11,10 @@ body {
   font-family: 'Crimson Text', serif;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .navbar-inverse {
   border-radius: 0;
   font-family: 'Crimson Text', serif;
@@ -94,10 +98,25 @@ body {
   margin: 5px;
 }
 
+ul .header {
+  font-size: 25px;
+}
+
+ul .header .glyphicon {
+  font-size: 20px;
+}
+
 .section {
   border: 1px solid;
   border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
   padding: 20px;
+}
+
+.section-li {
+  border: 1px solid;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  padding: 20px;
+  margin: 20px;
 }
 
 .lesson {
@@ -116,5 +135,25 @@ body {
   font-weight: 100;
   font-size: 25px;
 }
+
+.lessons li {
+  background: black;
+  color: white;
+  margin: 10px;
+  font-size: 15px;
+  font-weight: 100;
+  padding: 8px;
+}
+
+.lessons li b {
+  font-size: 25px;
+  font-weight: 100;
+}
+
+.lessons li p {
+  margin: 0;
+}
+
+
 
 
